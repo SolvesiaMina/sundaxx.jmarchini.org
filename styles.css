@@ -1,0 +1,152 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .logo {
+    float: left;
+    margin-left: 2rem;
+}
+
+header nav {
+    float: right;
+    margin-right: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+header nav ul li a:hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 1rem 0;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .cta-button:hover {
+    background: #575757;
+}
+
+section {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.news-main, .latest-news, .reviews-previews, .videos, .features, .community {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer .quick-links, footer .social-media, footer .newsletter, footer .contact-info {
+    margin-bottom: 1rem;
+}
+
+footer .quick-links a, footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer .quick-links a:hover, footer .social-media a:hover {
+    text-decoration: underline;
+}
+
+footer .newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .newsletter input[type="email"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+footer .newsletter button {
+    padding: 0.5rem;
+    border: none;
+    background: #575757;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+footer .newsletter button:hover {
+    background: #333;
+}
